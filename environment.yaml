@@ -1,0 +1,16 @@
+name: pytorch_env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - matplotlib
+  - notebook
+  - jupyter
+  - ipykernel
+  - numpy
+  - pip
+  - pip:
+    - -r requirements.txt
